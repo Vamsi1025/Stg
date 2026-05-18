@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="max-w-4xl mx-auto px-4 py-14">
+  <p class="text-amber-700 tracking-widest text-xs uppercase mb-2">About Us</p>
+  <h1 class="font-serif text-4xl mb-6">{{ BUSINESS_NAME }}</h1>
+  <p class="text-stone-700 leading-relaxed mb-4">
+    {{ BUSINESS_NAME }} is a trusted name in Gajuwaka, Visakhapatnam for premium tiles, granite, and sanitaryware. We bring you the finest selections from leading brands, paired with honest pricing and expert guidance.
+  </p>
+  <p class="text-stone-700 leading-relaxed mb-8">
+    From homeowners building their dream space to contractors finishing large projects, we serve every customer with the same care and quality. Visit our showroom to experience our collection in person.
+  </p>
+
+  <div class="grid sm:grid-cols-3 gap-4 mb-10">
+    <div class="bg-white p-5 rounded-xl shadow-sm border border-stone-100">
+      <div class="text-3xl mb-2">⭐</div>
+      <h3 class="font-semibold">Years of Trust</h3>
+      <p class="text-sm text-stone-600">Serving Vizag with reliable products and service.</p>
+    </div>
+    <div class="bg-white p-5 rounded-xl shadow-sm border border-stone-100">
+      <div class="text-3xl mb-2">🏆</div>
+      <h3 class="font-semibold">Quality Brands</h3>
+      <p class="text-sm text-stone-600">Curated selections from leading manufacturers.</p>
+    </div>
+    <div class="bg-white p-5 rounded-xl shadow-sm border border-stone-100">
+      <div class="text-3xl mb-2">🤝</div>
+      <h3 class="font-semibold">Honest Pricing</h3>
+      <p class="text-sm text-stone-600">Transparent quotes — no hidden costs.</p>
+    </div>
+  </div>
+
+  <a href="https://wa.me/{{ WHATSAPP_NUMBER }}" target="_blank" rel="noopener" class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold">Talk to Us on WhatsApp</a>
+</section>
+{% endblock %}

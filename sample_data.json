@@ -1,0 +1,10 @@
+[
+  {"model":"products.product","pk":1,"fields":{"name":"Glossy Marble Vitrified Tile 600x600","image":"","category":"vitrified","description":"Premium polished vitrified tile with marble finish.","created_at":"2025-01-01T10:00:00Z"}},
+  {"model":"products.product","pk":2,"fields":{"name":"Wooden Plank Vitrified Tile 200x1200","image":"","category":"vitrified","description":"Wood-look vitrified planks for elegant interiors.","created_at":"2025-01-02T10:00:00Z"}},
+  {"model":"products.product","pk":3,"fields":{"name":"Anti-Skid Bathroom Tile 300x300","image":"","category":"bathroom","description":"Matte anti-skid finish, perfect for wet areas.","created_at":"2025-01-03T10:00:00Z"}},
+  {"model":"products.product","pk":4,"fields":{"name":"Designer Bathroom Wall Tile 300x600","image":"","category":"bathroom","description":"Modern patterns for stylish bathrooms.","created_at":"2025-01-04T10:00:00Z"}},
+  {"model":"products.product","pk":5,"fields":{"name":"Wall-Mounted Western Toilet","image":"","category":"sanitaryware","description":"Modern wall-hung commode with soft-close seat.","created_at":"2025-01-05T10:00:00Z"}},
+  {"model":"products.product","pk":6,"fields":{"name":"Premium Wash Basin with Pedestal","image":"","category":"sanitaryware","description":"Elegant ceramic basin set.","created_at":"2025-01-06T10:00:00Z"}},
+  {"model":"products.product","pk":7,"fields":{"name":"Black Galaxy Granite Slab","image":"","category":"granite","description":"Premium South Indian black granite — ideal for kitchen countertops.","created_at":"2025-01-07T10:00:00Z"}},
+  {"model":"products.product","pk":8,"fields":{"name":"Tan Brown Granite","image":"","category":"granite","description":"Rich brown granite with natural patterns.","created_at":"2025-01-08T10:00:00Z"}}
+]
